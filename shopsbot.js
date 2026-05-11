@@ -480,6 +480,13 @@ function loadData() {
 
     return baseData;
   }
+  
+  function saveData(data) {
+  fs.writeFileSync(
+    './data.json',
+    JSON.stringify(data, null, 2)
+  );
+}
 
   const raw = fs.readFileSync('./data.json', 'utf8');
 
