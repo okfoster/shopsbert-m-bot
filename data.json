@@ -1,0 +1,380 @@
+{
+  "characters": {
+    "parappa the rapper": {
+      "displayName": "Parappa the Rapper",
+      "ownerId": "352993413232066566",
+      "tokens": {
+        "iggy": 5,
+        "astro": 5
+      },
+      "inventory": []
+    }
+  },
+  "currentShop": {
+    "iggy": {
+      "ingredients": {
+        "common": {
+          "Amethyst": 1,
+          "Black Mold": 1,
+          "Goblin Teeth": 1,
+          "White Pigment": 1,
+          "Chalcedony": 1
+        },
+        "uncommon": {},
+        "rare": {}
+      },
+      "potions": {
+        "Very Mild Poison of Dishonesty": 1,
+        "Very Mild Poison of Paralysis": 1,
+        "Very Mild Elixir of Mimicry": 1,
+        "Mild Poison of Deafness": 1,
+        "Mild Poison of Terror": 1,
+        "Mild Elixir of Rubberflesh": 1,
+        "Mild Elixir of Calm": 1
+      },
+      "meta": {
+        "ingredientsQuantity": 7,
+        "potionsQuantity": 8,
+        "ingredientsQuality": 2,
+        "potionsQuality": 15
+      }
+    },
+    "astro": {
+      "ingredients": {
+        "common": {
+          "Tin": 2,
+          "Lead-tin Yellow Pigment": 1,
+          "Toadstool": 3,
+          "Latticed Stinkhorn": 3,
+          "Goblin Teeth": 2,
+          "Octopus Stinkhorn": 2,
+          "Amethyst": 1,
+          "Bastardberry": 1,
+          "Chalcedony": 1,
+          "Rose Quartz": 1,
+          "Indigo Milk Cap": 1,
+          "Clear Quartz": 1,
+          "Yew Twigs": 1,
+          "Eye of Newt": 1,
+          "Yellow Ochre Pigment": 1,
+          "Iron": 2,
+          "Black Mold": 1
+        },
+        "uncommon": {
+          "Moonstone": 1,
+          "Hemlock": 1,
+          "Sanguine Root": 1
+        },
+        "rare": {},
+        "veryRare": {}
+      },
+      "potions": {
+        "Mild Poison of Weakness": 1,
+        "Mild Poison of Lyricism": 1,
+        "Mild Elixir of Rubberflesh": 1,
+        "Mild Elixir of Springheel": 2,
+        "Mild Elixir of the Augur": 2,
+        "Mild Poison of Deafness": 1,
+        "Mild Elixir of Ideation": 1,
+        "Mild Elixir of Luminosity": 1,
+        "Moderate Poison of Numbing": 1,
+        "Moderate Elixir of Stamina": 1,
+        "Moderate Poison of Somnia": 1,
+        "Moderate Elixir of the Augur": 1,
+        "Moderate Elixir of Mimicry": 1,
+        "Moderate Poison of Vacancy": 1,
+        "Strong Elixir of Joy": 1,
+        "Strong Poison of Deafness": 1,
+        "Strong Elixir of Youth": 1,
+        "Strong Poison of Dishonesty": 1,
+        "Strong Elixir of Kinetic Resistance": 1,
+        "Strong Elixir of Stamina": 1,
+        "Strong Poison of Paralysis": 1,
+        "Very Strong Poison of Terror": 1,
+        "Very Strong Elixir of Strength": 1
+      },
+      "scamMap": {
+        "ingredients": {
+          "Octopus Stinkhorn": [
+            "Starbrewer trading card",
+            "A non newborn human baby. Like… a two year old child. This is definitely someone’s child. They’re like asking for their mom and shit. Uh. Um."
+          ],
+          "Chalcedony": [
+            "A confused but very polite old man with dementia"
+          ],
+          "Rose Quartz": [
+            "Zac Efron’s obituary"
+          ],
+          "Indigo Milk Cap": [
+            "Diary of Judith Maywood"
+          ],
+          "Yew Twigs": [
+            "A non newborn human baby. Like… a two year old child. This is definitely someone’s child. They’re like asking for their mom and shit. Uh. Um."
+          ],
+          "Iron": [
+            "Saltwater flavored banana bites"
+          ],
+          "Black Mold": [
+            "15% off coupon for Spencer’s"
+          ],
+          "Moonstone": [
+            "Spine whip"
+          ],
+          "Hemlock": [
+            "Orb that makes you witness the death of a loved one"
+          ],
+          "Sanguine Root": [
+            "“I don’t want anymore ice cream” flavored ice cream"
+          ]
+        },
+        "potions": {
+          "Mild Poison of Weakness": [
+            "A handsome young man from the country who takes off his hat and holds it to his chest and as you ask him, “What’s your name, boy?” he says “Well, Ma’am/Sir/ToAThem, I ain’t got no name on account of my mammy passed ‘fore she could give me one, but my father’s name was Johnny Cassidy so they call me John Tommy Cassidy. My father done passed from the typhus long time ago, I ain’t got nowhere to stay or call home, I can’t read nor write neither, but I’m mighty good with horses and I can mend them fence posts what I saw on my way in and won’t ask for nothing much more than a hot meal and a warm barn to sleep in”"
+          ],
+          "Mild Poison of Lyricism": [
+            "Collectible Starbrewer Trading Card! (#4)"
+          ],
+          "Mild Elixir of Rubberflesh": [
+            "Very Strong Elixir of Penis Enlargement"
+          ],
+          "Mild Elixir of Springheel": [
+            "Eight Normal Gorillas (NOT FRIENDLY)"
+          ],
+          "Mild Elixir of the Augur": [
+            "The grade of each student who takes an upcoming second year exam"
+          ],
+          "Mild Elixir of Ideation": [
+            "Very Strong Potion of Instant Top Surgery"
+          ],
+          "Mild Elixir of Luminosity": [
+            "Astro just punches you in the face"
+          ],
+          "Moderate Poison of Numbing": [
+            "Box of 45 Australian Shepherd puppies"
+          ],
+          "Moderate Elixir of Stamina": [
+            "Zac Efron’s obituary"
+          ],
+          "Moderate Poison of Somnia": [
+            "The grade of each student who takes an upcoming second year exam"
+          ],
+          "Moderate Elixir of the Augur": [
+            "Zac Efron’s obituary"
+          ],
+          "Moderate Elixir of Mimicry": [
+            "Skin doritos"
+          ],
+          "Moderate Poison of Vacancy": [
+            "A cardboard cutout of Billie Joe Armstrong"
+          ],
+          "Strong Elixir of Joy": [
+            "Baby ocelot"
+          ],
+          "Strong Poison of Deafness": [
+            "A $45 Texas Roadhouse gift card"
+          ],
+          "Strong Elixir of Youth": [
+            "Disembodied frog legs that bounce around randomly"
+          ],
+          "Strong Poison of Dishonesty": [
+            "Pica"
+          ],
+          "Strong Elixir of Kinetic Resistance": [
+            "A genderbent version of yourself"
+          ],
+          "Strong Elixir of Stamina": [
+            "Tiny clone of your current/former Academy roommate"
+          ],
+          "Strong Poison of Paralysis": [
+            "A shard of the voidstone"
+          ],
+          "Very Strong Poison of Terror": [
+            "Peruvian Thick-knee Bird"
+          ],
+          "Very Strong Elixir of Strength": [
+            "Astro just punches you in the face"
+          ]
+        }
+      },
+      "meta": {
+        "ingredientsQuantity": 28,
+        "potionsQuantity": 25,
+        "ingredientsQuality": 1,
+        "potionsQuality": 12,
+        "ingBullshitRoll": 20,
+        "potBullshitRoll": 17
+      },
+      "bullshitLog": [
+        {
+          "original": "Octopus Stinkhorn",
+          "replacedWith": "Starbrewer trading card",
+          "tier": "common"
+        },
+        {
+          "original": "Octopus Stinkhorn",
+          "replacedWith": "A non newborn human baby. Like… a two year old child. This is definitely someone’s child. They’re like asking for their mom and shit. Uh. Um.",
+          "tier": "common"
+        },
+        {
+          "original": "Chalcedony",
+          "replacedWith": "A confused but very polite old man with dementia",
+          "tier": "common"
+        },
+        {
+          "original": "Rose Quartz",
+          "replacedWith": "Zac Efron’s obituary",
+          "tier": "common"
+        },
+        {
+          "original": "Indigo Milk Cap",
+          "replacedWith": "Diary of Judith Maywood",
+          "tier": "common"
+        },
+        {
+          "original": "Yew Twigs",
+          "replacedWith": "A non newborn human baby. Like… a two year old child. This is definitely someone’s child. They’re like asking for their mom and shit. Uh. Um.",
+          "tier": "common"
+        },
+        {
+          "original": "Iron",
+          "replacedWith": "Saltwater flavored banana bites",
+          "tier": "common"
+        },
+        {
+          "original": "Black Mold",
+          "replacedWith": "15% off coupon for Spencer’s",
+          "tier": "common"
+        },
+        {
+          "original": "Moonstone",
+          "replacedWith": "Spine whip",
+          "tier": "uncommon"
+        },
+        {
+          "original": "Hemlock",
+          "replacedWith": "Orb that makes you witness the death of a loved one",
+          "tier": "uncommon"
+        },
+        {
+          "original": "Sanguine Root",
+          "replacedWith": "“I don’t want anymore ice cream” flavored ice cream",
+          "tier": "uncommon"
+        },
+        {
+          "original": "Mild Poison of Weakness",
+          "replacedWith": "A handsome young man from the country who takes off his hat and holds it to his chest and as you ask him, “What’s your name, boy?” he says “Well, Ma’am/Sir/ToAThem, I ain’t got no name on account of my mammy passed ‘fore she could give me one, but my father’s name was Johnny Cassidy so they call me John Tommy Cassidy. My father done passed from the typhus long time ago, I ain’t got nowhere to stay or call home, I can’t read nor write neither, but I’m mighty good with horses and I can mend them fence posts what I saw on my way in and won’t ask for nothing much more than a hot meal and a warm barn to sleep in”",
+          "tier": "Mild"
+        },
+        {
+          "original": "Mild Poison of Lyricism",
+          "replacedWith": "Collectible Starbrewer Trading Card! (#4)",
+          "tier": "Mild"
+        },
+        {
+          "original": "Mild Elixir of Rubberflesh",
+          "replacedWith": "Very Strong Elixir of Penis Enlargement",
+          "tier": "Mild"
+        },
+        {
+          "original": "Mild Elixir of Springheel",
+          "replacedWith": "Eight Normal Gorillas (NOT FRIENDLY)",
+          "tier": "Mild"
+        },
+        {
+          "original": "Mild Elixir of the Augur",
+          "replacedWith": "The grade of each student who takes an upcoming second year exam",
+          "tier": "Mild"
+        },
+        {
+          "original": "Mild Elixir of Ideation",
+          "replacedWith": "Very Strong Potion of Instant Top Surgery",
+          "tier": "Mild"
+        },
+        {
+          "original": "Mild Elixir of Luminosity",
+          "replacedWith": "Astro just punches you in the face",
+          "tier": "Mild"
+        },
+        {
+          "original": "Moderate Poison of Numbing",
+          "replacedWith": "Box of 45 Australian Shepherd puppies",
+          "tier": "Moderate"
+        },
+        {
+          "original": "Moderate Elixir of Stamina",
+          "replacedWith": "Zac Efron’s obituary",
+          "tier": "Moderate"
+        },
+        {
+          "original": "Moderate Poison of Somnia",
+          "replacedWith": "The grade of each student who takes an upcoming second year exam",
+          "tier": "Moderate"
+        },
+        {
+          "original": "Moderate Elixir of the Augur",
+          "replacedWith": "Zac Efron’s obituary",
+          "tier": "Moderate"
+        },
+        {
+          "original": "Moderate Elixir of Mimicry",
+          "replacedWith": "Skin doritos",
+          "tier": "Moderate"
+        },
+        {
+          "original": "Moderate Poison of Vacancy",
+          "replacedWith": "A cardboard cutout of Billie Joe Armstrong",
+          "tier": "Moderate"
+        },
+        {
+          "original": "Strong Elixir of Joy",
+          "replacedWith": "Baby ocelot",
+          "tier": "Strong"
+        },
+        {
+          "original": "Strong Poison of Deafness",
+          "replacedWith": "A $45 Texas Roadhouse gift card",
+          "tier": "Strong"
+        },
+        {
+          "original": "Strong Elixir of Youth",
+          "replacedWith": "Disembodied frog legs that bounce around randomly",
+          "tier": "Strong"
+        },
+        {
+          "original": "Strong Poison of Dishonesty",
+          "replacedWith": "Pica",
+          "tier": "Strong"
+        },
+        {
+          "original": "Strong Elixir of Kinetic Resistance",
+          "replacedWith": "A genderbent version of yourself",
+          "tier": "Strong"
+        },
+        {
+          "original": "Strong Elixir of Stamina",
+          "replacedWith": "Tiny clone of your current/former Academy roommate",
+          "tier": "Strong"
+        },
+        {
+          "original": "Strong Poison of Paralysis",
+          "replacedWith": "A shard of the voidstone",
+          "tier": "Strong"
+        },
+        {
+          "original": "Very Strong Poison of Terror",
+          "replacedWith": "Peruvian Thick-knee Bird",
+          "tier": "Very Strong"
+        },
+        {
+          "original": "Very Strong Elixir of Strength",
+          "replacedWith": "Astro just punches you in the face",
+          "tier": "Very Strong"
+        }
+      ]
+    }
+  },
+  "shopMessageIds": {
+    "iggy": "1503217618155212800",
+    "astro": "1503217563985772764"
+  }
+}
