@@ -465,12 +465,40 @@ function resolveCharacterName(data, input) {
 }
 
 function loadData() {
-  const data = fs.readFileSync('./data.json', 'utf8');
-  return JSON.parse(data);
-}
 
-function saveData(data) {
-  fs.writeFileSync('./data.json', JSON.stringify(data, null, 2));
+  if (!fs.existsSync('./data.json')) {
+    const baseData = {
+      characters: {},
+      currentShop: {},
+      shopMessageIds: {}
+    };
+
+    fs.writeFileSync(
+      './data.json',
+      JSON.stringify(baseData, null, 2)
+    );
+
+    return baseData;
+  }
+
+  const raw = fs.readFileSync('./data.json', 'utf8');
+
+  if (!raw.trim()) {
+    const baseData = {
+      characters: {},
+      currentShop: {},
+      shopMessageIds: {}
+    };
+
+    fs.writeFileSync(
+      './data.json',
+      JSON.stringify(baseData, null, 2)
+    );
+
+    return baseData;
+  }
+
+  return JSON.parse(raw);
 }
 
 function formatIngredients(counts) {
@@ -674,6 +702,18 @@ client.once('ready', () => {
         }
 
         const data = loadData();
+
+if (!data.characters) {
+  data.characters = {};
+}
+
+if (!data.currentShop) {
+  data.currentShop = {};
+}
+
+if (!data.shopMessageIds) {
+  data.shopMessageIds = {};
+}
 
 // build shop
 if (!data.currentShop) {
