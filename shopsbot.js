@@ -1722,22 +1722,24 @@ if (command === 'kill') {
 }
 
 // wipe data cmd
+// wipe data cmd
 if (command === 'wipedata') {
 
   const wipedData = {
     characters: {},
-    aliases: {},
     currentShop: {},
     shopMessageIds: {}
   };
 
-  saveData(wipedData);
+  fs.writeFileSync(
+    './data.json',
+    JSON.stringify(wipedData, null, 2)
+  );
 
   return message.reply(
     'data.json has been wiped.'
   );
 }
-
 // buy cmd
 if (command === 'buy') {
   const data = loadData();
