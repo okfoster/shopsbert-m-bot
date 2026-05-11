@@ -1724,18 +1724,17 @@ if (command === 'kill') {
 // wipe data cmd
 if (command === 'wipedata') {
 
-  const data = loadData();
+  const wipedData = {
+    characters: {},
+    aliases: {},
+    currentShop: {},
+    shopMessageIds: {}
+  };
 
-  data.characters = {};
-
-  data.currentShop = {};
-
-  data.shopMessageIds = {};
-
-  saveData(data);
+  saveData(wipedData);
 
   return message.reply(
-    'Data wiped.'
+    'data.json has been wiped.'
   );
 }
 
