@@ -1564,6 +1564,7 @@ Once you’ve got your formatting down, you’re good to go! For Iggy purchases,
 
   // register cmd
   if (command === 'register') {
+	console.log('REGISTER COMMAND FIRED');
 	const rawName = args.join(' ');
 	const name = rawName.toLowerCase();
 
