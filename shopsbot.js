@@ -450,6 +450,20 @@ function generateIngredients(dist) {
   return counts;
 }
 
+function resolveCharacterName(data, input) {
+  const normalized = input.toLowerCase();
+
+  if (data.characters[normalized]) {
+    return normalized;
+  }
+
+  if (data.aliases?.[normalized]) {
+    return data.aliases[normalized];
+  }
+
+  return null;
+}
+
 function loadData() {
   const data = fs.readFileSync('./data.json', 'utf8');
   return JSON.parse(data);
@@ -1518,6 +1532,9 @@ Once you’ve got your formatting down, you’re good to go! For Iggy purchases,
     }
 
     const data = loadData();
+	if (!data.characters) {
+  data.characters = {};
+}
 
     if (data.characters[name]) {
       return message.reply('⚠️ That character is already registered.');
@@ -1536,18 +1553,21 @@ const characterData = {
 data.characters[name] = characterData;
 
 // first name
+
+if (!data.aliases) {
+  data.aliases = {};
+}
+
 const splitName = name.split(' ');
 
 if (splitName.length > 1) {
-
   const firstName = splitName[0];
 
   // only create alias if unused
-  if (!data.characters[firstName]) {
-    data.characters[firstName] = characterData;
+  if (!data.aliases[firstName]) {
+    data.aliases[firstName] = name;
   }
 }
-
     saveData(data);
 
 	message.reply(`**${rawName}** registered successfully. Thank you for your patronage.`);
@@ -1623,6 +1643,20 @@ if (command === 'iggy') {
   data.shopMessageIds.iggy = msg.id;
 
   saveData(data);
+}
+
+function resolveCharacterName(data, input) {
+  const normalized = input.toLowerCase();
+
+  if (data.characters[normalized]) {
+    return normalized;
+  }
+
+  if (data.aliases?.[normalized]) {
+    return data.aliases[normalized];
+  }
+
+  return null;
 }
 
 // astro cmd
@@ -1723,7 +1757,13 @@ const characterName = firstArgs.slice(2).join(' ').toLowerCase();
     return message.reply(`⚠️ Please enter your character's name.`);
   }
 
-  const character = data.characters[characterName];
+  const resolvedName =
+  resolveCharacterName(data, characterName);
+
+const character =
+  resolvedName
+    ? data.characters[resolvedName]
+    : null;
 
   if (!character) {
     return message.reply(`⚠️ Who the fuck is that`);
